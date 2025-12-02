@@ -1,12 +1,12 @@
 # Docker
 
-Student Management Dockerized Application (3-Tier Architecture):
+# Student Management Dockerized Application (3-Tier Architecture):
   This project is a full Docker-based deployment of a 3-tier Student Management System consisting of:
   Frontend (FE) – Nginx hosting HTML/CSS/JS
   Backend (BE) – Java/Spring Boot (or Node/Express, depending on project)
   Database (DB) – MySQL running as a Docker container
 
-Tech Stack:
+# Tech Stack:
   1) Docker
   2) Docker Compose (Optional)
   3) Nginx
@@ -40,5 +40,25 @@ docker run -d -p 80:80 --name fe-cont fe-image:v1
 
 6️⃣ Verify
 docker ps -a
+
+
+# System Architecture
+            ┌──────────────────────────────┐
+            │            Frontend          │
+            │        (Nginx Container)     │
+            └───────────────▲──────────────┘
+                            │
+                            ▼
+            ┌──────────────────────────────┐
+            │            Backend           │
+            │   (Spring Boot Container)    │
+            └───────────────▲──────────────┘
+                            │
+                            ▼
+            ┌──────────────────────────────┐
+            │        Database Layer        │
+            │ Docker MySQL (Local) / RDS   │
+            └──────────────────────────────┘
+
 
 
