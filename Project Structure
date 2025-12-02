@@ -1,0 +1,14 @@
+cdec-46/
+└── Docker/
+    ├── student-docker/
+    │   └── DB/
+    │       ├── Dockerfile
+    │       ├── sql scripts
+    │
+    ├── BE/
+    │   ├── Dockerfile
+    │   └── backend source code
+    │
+    └── FE/
+        ├── Dockerfile
+        └── index.html
