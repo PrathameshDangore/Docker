@@ -3,12 +3,16 @@ cdec-46/
     ├── student-docker/
     │   └── DB/
     │       ├── Dockerfile
-    │       ├── sql scripts
+    │       ├── schema.sql
+    │       ├── data.sql
     │
     ├── BE/
     │   ├── Dockerfile
-    │   └── backend source code
+    │   ├── src/
+    │   ├── pom.xml
+    │   └── application.properties
     │
     └── FE/
         ├── Dockerfile
-        └── index.html
+        ├── index.html
+        └── assets/
