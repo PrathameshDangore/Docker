@@ -1,5 +1,3 @@
-# Docker
-
 # Student Management Dockerized Application (3-Tier Architecture):
   This project is a full Docker-based deployment of a 3-tier Student Management System consisting of:
   Frontend (FE) – Nginx hosting HTML/CSS/JS
