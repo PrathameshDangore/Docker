@@ -8,12 +8,11 @@
 
 # Tech Stack:
   1) Docker
-  2) Docker Compose (Optional)
+  2) Docker Compose 
   3) Nginx
   4) Java / Spring Boot (or Node backend)
-  5) MySQL
-  6) AWS EC2
-  7) AWS RDS (MySQL)
+  5) AWS EC2
+  6) AWS RDS (Mariadb)
 
 
 1️⃣ Install Docker
